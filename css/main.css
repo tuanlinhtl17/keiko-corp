@@ -37,12 +37,6 @@
 
 }
 
-
-
-
-
-
-
 section, footer {
 	background: #fffcfc;
 }
@@ -100,18 +94,18 @@ header {
   /* change the calc height to a percentage height to get alternate responsive behavior*/
 }
 
-header .logo{
+.logo{
 	display: table-cell;
 	margin: 45px 100px 0 0;
 }
 
-header .logo img{
+.logo img{
 	width: 200px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .burger_icon{
+.burger_icon{
 	display: none;
 	float: right;
 	background: #ffffff;
@@ -129,11 +123,11 @@ header .burger_icon{
 	margin: 45px 10px 0 0;
 }
 
-header .burger_icon:hover{
+.burger_icon:hover{
 	cursor: pointer;
 }
 
-header .burger_icon.active{
+.burger_icon.active{
 	background: #359663;
 	color: #ffffff;
 }
@@ -169,19 +163,19 @@ header nav li a:focus{
 	color: #B7EFD1!important;
 }
 
-header .social{
+.social{
 	display: table-cell;
 	margin-top: 45px;
 }
 
-header .social li{
+.social li{
 	float: left;
 	margin-left: 20px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
 }
 
-header .social li:first-child{
+.social li:first-child{
 	margin: 0;
 }
 
@@ -205,7 +199,7 @@ header .social li:first-child{
 	background-size: cover;
 }
 
-.hero .caption{
+.caption{
 	position: absolute;
 	max-width: 550px;
 	margin-left: 80px;
@@ -216,7 +210,7 @@ header .social li:first-child{
 	-o-transform:translate(0,-50%);
 }
 
-.hero .caption h1{
+.caption h1{
 	color: #525252;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
@@ -224,16 +218,12 @@ header .social li:first-child{
 	word-break: break-word;
 }
 
-.hero .caption p{
+.caption p{
 	color: #6d6c6c;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	margin: 15px 0 35px 0;
-}
-
-#slider .caption p{
-	margin: 0;
 }
 
 a.app_store_btn{
@@ -400,23 +390,23 @@ a.app_link{
 	padding: 100px 0;
 }
 
-.about .iphone{
+.iphone{
 	max-width: 339px;
 	position: relative;
 	display: inline-block;
 	text-align: center;
 }
 
-.about .iphone img{
+.iphone img{
 	width: 100%;
 	height: auto;
 }
 
-.about .features_list{
+.features_list{
 	margin-left: 50px;
 }
 
-.about .features_list h1{
+.features_list h1{
 	color: #525151;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
@@ -426,7 +416,7 @@ a.app_link{
 	word-break: break-word;
 }
 
-.about .features_list p{
+.features_list p{
 	color: #767272;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -434,11 +424,11 @@ a.app_link{
 	line-height: 32px;
 }
 
-.about .features_list ul{
+.features_list ul{
 	margin-bottom: 30px;
 }
 
-.about .features_list ul li{
+.features_list ul li{
 	display: block;
 	position: relative;
 	color: #6c6c6c;
@@ -453,32 +443,32 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-.about .features_list ul li.camera_icon{
+.features_list ul li.camera_icon{
 	background: url('../img/icon1.png') no-repeat;
 	background-position: 0 15px;
 }
 
-.about .features_list ul li.video_icon{
+.features_list ul li.video_icon{
 	background: url('../img/icon2.png') no-repeat;
 	background-position: 0 15px;
 }
 
-.about .features_list ul li.eye_icon{
+.features_list ul li.eye_icon{
 	background: url('../img/icon3.png') no-repeat;
 	background-position: 0 14px;
 }
 
-.about .features_list ul li.pic_icon{
+.features_list ul li.pic_icon{
 	background: url('../img/icon4.png') no-repeat;
 	background-position: 0 14px;
 }
 
-.about .features_list ul li.loc_icon{
+.features_list ul li.loc_icon{
 	background: url('../img/icon5.png') no-repeat;
 	background-position: 3px 13px;
 }
 
-.about .features_list ul li span{
+.features_list ul li span{
 	display: inline-block;
 }
 
@@ -520,11 +510,11 @@ a.app_link{
 	line-height: 28px;
 }
 
-.app_features .details{
+.details{
 	margin-bottom: 80px;
 }
 
-.app_features .details:nth-child(3n+1){
+.details:nth-child(3n+1){
 	clear: both;
 }
 
@@ -543,18 +533,18 @@ a.app_link{
 	padding: 100px 0;
 }
 
-.testimonials .testimonials_list{
+.testimonials_list{
 	max-width: 820px;
 	margin: 0 auto;
 }
 
-.testimonials .testimonials_list blockquote{
+blockquote{
 	border: 0;
 	padding: 0;
 	margin: 0;
 }
 
-.testimonials .testimonials_list blockquote p{
+blockquote p{
 	color: #757171;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -562,32 +552,31 @@ a.app_link{
 	line-height: 36px;
 }
 
-.testimonials .testimonials_list blockquote footer:before,
-.testimonials .testimonials_list blockquote footer:after{
+blockquote footer:before,
+blockquote footer:after{
 	content: none;
 }
 
-.testimonials .testimonials_list blockquote .author,
-.testimonials .testimonials_list blockquote .job{
+.author, .job{
 	display: block;
 }
 
-.testimonials .testimonials_list blockquote .author{
+blockquote .author{
 	color: #4b4848;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
 
-.testimonials .testimonials_list blockquote .job{
+.job{
 	color: #6e6d6d;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
 
-.#tslider{
-	text-align: center!important;
-	position: relative!important;
+#tslider{
+	text-align: center !important;
+	position: relative !important;
 }
 
 #tslider .owl-controls{
